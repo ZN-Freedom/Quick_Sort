@@ -138,7 +138,7 @@ void main()
 
     quickSort (v, 0, v.size() - 1);
 
-    std::cout << std::endl << "Bubble sorted array: ";
+    std::cout << std::endl << "Quick sorted array: ";
     for (std::vector<int>::iterator i = v.begin(); i != v.end(); i ++)
         std::cout << *i << " ";
 
